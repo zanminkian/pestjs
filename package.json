@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "pnpm@8.1.1",
+  "engines": {
+    "pnpm": "^8.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "postinstall": "git-hooks install",
+    "format": "git-hooks format",
+    "lint": "git-hooks lint"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@zanminkian/git-hooks": "^0.2.5",
+    "@zanminkian/powerful-jest": "^0.1.7",
+    "@zanminkian/tsconfig": "^0.4.1",
+    "typescript": "^5.0.4"
+  }
+}

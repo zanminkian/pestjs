@@ -1,0 +1,13 @@
+{
+  "name": "@zanminkian/pestjs-core",
+  "type": "module",
+  "version": "0.1.0-beta.0",
+  "description": "Modern IOC framework using ES decorators.",
+  "author": "hellozmj@qq.com",
+  "license": "MIT",
+  "homepage": "https://github.com/zanminkian/pestjs",
+  "keywords": ["IOC", "DI", "nest", "nestjs", "pest", "pestjs", "decorator", "framework"],
+  "scripts": {
+    "build": "tsc"
+  }
+}

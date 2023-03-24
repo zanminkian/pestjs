@@ -1,0 +1,7 @@
+{
+  "extends": "@zanminkian/tsconfig",
+  "compilerOptions": {
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false
+  }
+}
